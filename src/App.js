@@ -14,16 +14,17 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div  className='App'>
+         <div className='App-content'>
           <Navbar />
-         <div className='App-content'>  
           <Switch>
             <Route exact path = '/' component={Dashboard}/>
             <Route path = '/about' component={About}/>
             <Route path = '/projects' component={Projects}/>
           </Switch>
           <Footer />
-        </div>  
+        </div> 
         </div>
+
       </BrowserRouter>
     );
   }
