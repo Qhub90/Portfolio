@@ -1,8 +1,37 @@
-.card .card-content {
-    margin-top: 80px;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+  background: url(../../Images/Q.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#aboutText {
-    font-family: 'Montserrat';
+.aboutText {
+    font-family: 'Bitter';
+    font-size: 25px; 
+    line-height: 40px;   
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    width: 650px;
 }
 
+div > ul { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    }
+
+i {
+    font-size: 40px;
+}
+
+.plinks > a {
+    color: rgb(31, 97, 241);
+    
+}

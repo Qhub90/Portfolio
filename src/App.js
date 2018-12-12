@@ -5,7 +5,7 @@ import Dashboard from './Components/Dashboard/Dashboard'
 import About from './Components/About/About'
 import Projects from './Components/Projects/Projects'
 import Footer from './Components/Footer/Footer'
-
+import './App.css';
 
 
 class App extends Component {
@@ -13,8 +13,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div  className='App'>
-         <div className='App-content'>
+        <div className='container'>
           <Navbar />
           <Switch>
             <Route exact path = '/' component={Dashboard}/>
@@ -22,7 +21,6 @@ class App extends Component {
             <Route path = '/projects' component={Projects}/>
           </Switch>
           <Footer />
-        </div> 
         </div>
 
       </BrowserRouter>

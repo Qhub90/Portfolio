@@ -1,14 +1,9 @@
 body {
-  display: 'flex';
-  min-height: '100vh';
-  flex-direction: 'column';
-  font-family: 'Playfair Display', serif;
-  background-image: url(Q.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+  margin: auto 0;
 }
-
-main {
-    flex: 1 0 auto;
-  }
+/* .container {
+  height: 100vh;
+  background: url(Q.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

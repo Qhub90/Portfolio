@@ -1,7 +1,14 @@
-.page-footer {
-  overflow: hidden;
+footer {
+  text-align: center;
 }
 
-.feet {
-  margin: 0;
-}
+/* .sticky {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
